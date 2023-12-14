@@ -6,6 +6,7 @@ We perform experiments on Kodak image dataset, composing of 24 pieces of lossles
 
 The structure of this repository:
 - pca: fold contains the code to perform PCA
+- Image-Compression-DCT-WHT: code for DCT&PCA, see here [README](./Image-Compression-DCT-WHT/README.md)
 - result_comparison: fold contains the code to evaluate different methods by computing metrics
 
 ## Result comparison
