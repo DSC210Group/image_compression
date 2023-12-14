@@ -5,8 +5,21 @@ In this project, we initially explore the linear algebraic methods using Singula
 We perform experiments on Kodak image dataset, composing of 24 pieces of lossless, true color (24 bits per pixel, aka "full color") images (You can find the image dataset here: https://r0k.us/graphics/kodak/).
 
 The structure of this repository:
-- pca: fold contains the code to perform PCA
+- PCA&SVD: fold contains the code to perform PCA and SVD
+- WHT&DCT: fold contains the code to perform WHT and DCT
+- SOTA: fold contains the code to perform SOTA method (MLIC++)
 - result_comparison: fold contains the code to evaluate different methods by computing metrics
+
+## Compression results of different method (details could be found in the readme in their corresponding directory)
+- PCA
+![PCA](pictures/pca.png)
+![Variance](pictures/variance.png)
+- MLIC++
+![SVD](pictures/svd.png)
+- SOTA
+![SOTA](pictures/sota.png)
+- WHT & DCT
+![WHT_DCT](pictures/wht_dct.png)
 
 ## Result comparison
 | Method | PSNR (dB) | MS-SSIM (dB) | Bit-rate (bpp) |
