@@ -6,7 +6,7 @@ We perform experiments on Kodak image dataset, composing of 24 pieces of lossles
 
 The structure of this repository:
 - PCA&SVD: fold contains the code to perform PCA and SVD
-- WHT&DCT: fold contains the code to perform WHT and DCT
+- WHT&DCT: fold contains the code to perform WHT and DCT, see more [README](./DCT&WHT/README.md)
 - SOTA: fold contains the code to perform SOTA method (MLIC++)
 - result_comparison: fold contains the code to evaluate different methods by computing metrics
 
