@@ -12,3 +12,5 @@ pca.py
 svd.py  
 dataset.py  
 rotate.py
+
+To run the jupyter notebook, you should first put the images from kodak image dataset in the dataset folder and create a rotated_dataset folder. Then run the rotate.py to get the rotated dataset.
